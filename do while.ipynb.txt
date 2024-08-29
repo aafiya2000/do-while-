@@ -1,0 +1,8 @@
+while True:
+    # Code block to be executed
+    number = int(input("Enter a number (enter 0 to stop): "))
+    
+    # Condition to exit the loop
+    if number == 0:
+        break
+    print(f"You entered: {number}")
